@@ -1,10 +1,10 @@
-let thisInput = document.getElementsByTagName("Input")[1];
+let thisInput = document.getElementsByTagName("Input")[2];
 var date =$("#Schoolday").val();
 
 
 thisInput.onclick = function(){
 
-    var testinput = document.getElementsByTagName("Input")[0];
+    var testinput = document.getElementsByTagName("Input")[1];
 
     //$("#tt").empty();
 $(function(){
