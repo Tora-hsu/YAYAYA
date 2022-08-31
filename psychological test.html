@@ -37,14 +37,14 @@
             <li class="nav-item">
               <a class="nav-link" href="culb_course.html">culb_course<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active" >
-                <a class="nav-link" href="#">YT<span class="sr-only">(current)</span></a>
+            <li class="nav-item" >
+                <a class="nav-link" href="yt.html">YT<span class="sr-only">(current)</span></a>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="RPG.html">RPG<span class="sr-only">(current)</span></a>
             </li>              
-            <li class="nav-item">
-              <a class="nav-link disabled" href="psychological test.html">心情小棧</a>
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="#">心情小棧</a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -69,15 +69,13 @@
 
 
         <hr class="featurette-divider">
-        <h1>youtube點唱機</h1>
-        <h2></h2>
-        
-        
-        <div id = "player">
-
+         
+        <h1>你今年的愛情是什麼滋味?</h1>
+        <div>
+            <h2 id = "questions"></h2>
+            <div id = "options"></div>
         </div>
-        <br>
-        <input id = "playButton" type = "button" value = Player -->
+        <input id="startButton" type="button" value="開始作答">
 
         <hr class="featurette-divider">
 
@@ -102,8 +100,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="https://www.youtube.com/iframe_api" ></script>
-    <script src="yt/main.js"></script>
-    <script src="yt/PlayList.js"></script>
+    <script src="test/main.js"></script>
+    <script src="test/data.js"></script>
   </body>
 </html>
